@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "voxgen",
+	"version": "${version}",
+	"name": "voxgen",
+	"description": "Generate a PNG that can be opened in isofrag/isoberry",
+	"authors": [
+		"matthewperiut"
+	],
+	"contact": {
+		"sources": "https://github.com/matthewperiut/voxgen"
+	},
+	"license": "MIT",
+	"icon": "assets/voxgen/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"com.matthewperiut.voxgen.VoxGenClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.14.19",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
